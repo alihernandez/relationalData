@@ -1,2 +1,2 @@
 # relationalData
-Node JS MySQL
+Simple Web App using NodeJS and MySql for the dbms.
