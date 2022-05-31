@@ -1,0 +1,16 @@
+{
+  "name": "relationalData",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": "git@github.com:alihernandez/relationalData.git",
+  "author": "phantomramen <ali.hernandez9two@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "mysql": "^2.18.1"
+  }
+}
