@@ -1,8 +1,9 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
-let mysql = require('mysql');  
-const { response } = require("express");
+const router = require("./routes/route");
+// let mysql = require('mysql');  
+// const { response } = require("express");
 require("dotenv").config();
 
 const PORT = process.env.PORT || 3000;

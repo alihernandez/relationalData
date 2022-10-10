@@ -1,7 +1,7 @@
 const createDish = require("../controllers/createDish.controller");
 
 const createDishService = async (req, res) => {
-    const dishTest = req.body.dishInfo.dish_name;
+    const dishTest = req.body.dishInfo.dishName;
     if (dishTest.toString().length > 2) {
         const result = await createDish.createDish(req, res);
         if (result.affectedRows)
